@@ -55,6 +55,17 @@ npm run build
 
 The production build is generated in the `dist` directory.
 
+## Netlify Deployment
+
+Netlify should use:
+
+```text
+Build command: npm run build
+Publish directory: dist
+```
+
+The repository includes `netlify.toml` with this configuration.
+
 ## Project Structure
 
 ```text
